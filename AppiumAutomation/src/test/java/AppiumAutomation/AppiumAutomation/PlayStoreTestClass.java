@@ -27,10 +27,10 @@ public static void main(String[] args) {
 		//Instantiate Appium Driver
 		try {
 				AppiumDriver<MobileElement> driver = new AndroidDriver<MobileElement>(new URL("http://0.0.0.0:4723/wd/hub"), caps);
-//				driver.findElement(By.id("com.android.vending:id/search_bar_hint")).click();
-//				driver.findElement(By.id("com.android.vending:id/search_bar_text_input")).sendKeys("pubg");
-//				driver.findElement(By.id("com.android.vending:id/suggest_text")).click();
-//				driver.findElement(By.xpath("//*[@content-desc='App:PUBG MOBILETencent Games1.8 GB']")).click();
+				driver.findElement(By.id("com.android.vending:id/search_bar_hint")).click();
+				driver.findElement(By.id("com.android.vending:id/search_bar_text_input")).sendKeys("pubg");
+				driver.findElement(By.id("com.android.vending:id/suggest_text")).click();
+				driver.findElement(By.xpath("//*[@content-desc='App:PUBG MOBILETencent Games1.8 GB']")).click();
 		} catch (MalformedURLException e) {
 			System.out.println(e.getMessage());
 		}
