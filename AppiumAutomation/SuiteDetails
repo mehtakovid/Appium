@@ -1,0 +1,12 @@
+Features :
+
+			1. Sending Messages
+			2. Liking Posts
+			3. Opening User Profiles
+			4. Read Notifications
+			5. Add Photos from Gallery
+			
+Test Suite Features :
+			1. POM and BDD combined with TestNG Setup.
+			2. Parallel Execution of Tests. 
+			
